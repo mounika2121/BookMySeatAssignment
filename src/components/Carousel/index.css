@@ -1,0 +1,19 @@
+.sm-carousel {
+  display: none;
+}
+
+.xl-image {
+  display: block;
+  height: 450px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .sm-carousel {
+    display: block;
+  }
+
+  .xl-image {
+    display: none;
+  }
+}

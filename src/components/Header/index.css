@@ -1,7 +1,7 @@
 .header-container {
   height: 10vh;
-  width: 100vw;
-  background-color: #3a3d42;
+  width: 100%;
+  background-color: #0d2436;
   color: white;
   display: flex;
   flex-direction: row;
@@ -34,18 +34,7 @@ ul {
   font-size: 18px;
 }
 
-.logout-xl-btn {
-  background-color: #2c9099;
-  height: 30px;
-  width: 80px;
-  font-weight: 600;
-  color: white;
-  border: 2px solid #2c9099;
-  border-radius: 15px;
-  text-align: center;
-}
-
-.logout-sm-btn {
+.home-sm-btn {
   display: none;
 }
 
@@ -54,6 +43,11 @@ span {
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+.nav-link {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .nav-items {
     width: 180px;
@@ -63,11 +57,7 @@ span {
     display: none;
   }
 
-  .logout-xl-btn {
-    height: 27px;
-    width: 70px;
-  }
-  .logout-sm-btn {
+  .home-sm-btn {
     display: block;
     background-color: transparent;
     border: none;

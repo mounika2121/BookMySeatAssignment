@@ -1,0 +1,54 @@
+.footer-bg-container {
+  background-color: #0d2436;
+  padding-top: 40px;
+  font-family: 'Roboto';
+}
+
+.logo-container {
+  color: white;
+}
+
+.footer-logo {
+  height: 65px;
+}
+
+.footer-icon {
+  font-size: 20px;
+  color: #5a7184;
+}
+
+.footer-icon-container {
+  height: 60px;
+  width: 60px;
+  background-color: #152c3e;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-para {
+  font-size: 18px;
+  color: #5a7184;
+}
+
+.footer-small-heading {
+  font-size: 18px;
+  color: #5a7184;
+  font-weight: bold;
+}
+
+.footer-section-para {
+  font-size: 15px;
+  color: #5a7184;
+}
+
+.hr-line {
+  width: 95%;
+  background-color: #5a7184;
+  height: 3px;
+}

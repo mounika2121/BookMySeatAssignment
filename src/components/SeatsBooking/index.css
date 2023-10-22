@@ -1,0 +1,60 @@
+.seats-container {
+  margin: 25px;
+}
+
+.booking-header {
+  font-family: Roboto;
+}
+
+.options-container {
+  margin-top: 10px;
+}
+
+.first-select {
+  margin-right: 20px;
+}
+
+.main-sets-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seat-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.extra-space {
+  margin-right: 65px;
+}
+.extra-spaces {
+  margin-right: 65px;
+}
+.last-space {
+  margin-right: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  #seats-button {
+    font-size: 10px;
+    width: 21px;
+    padding: 2px;
+  }
+  .seat-button {
+    margin-right: 5px;
+  }
+  .seats-container {
+    margin: 5px;
+  }
+  .extra-space {
+    margin-right: 27px;
+  }
+  .extra-spaces {
+    margin-right: 27px;
+  }
+  .last-space {
+    margin-right: 0px;
+  }
+}
