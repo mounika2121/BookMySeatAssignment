@@ -4,6 +4,7 @@ import Home from './components/Home'
 import NotFound from './components/NotFound'
 import Login from './components/Login'
 import SeatsBooking from './components/SeatsBooking'
+import ConfirmSeats from './components/ConfirmSeats'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -18,6 +19,7 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/not-found" component={NotFound} />
         <Route path="/booking" component={SeatsBooking} />
+        <Route path="/confirm" component={ConfirmSeats} />
         <Redirect to="not-found" />
       </Switch>
     )

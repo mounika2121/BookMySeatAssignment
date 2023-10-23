@@ -1,0 +1,41 @@
+.confirm-container {
+  background-image: url('https://res.cloudinary.com/djbs4yqbz/image/upload/v1698060315/theater_txwqh7.jpg');
+  background-size: cover;
+  height: 90vh;
+}
+
+.confirm-header {
+  color: white;
+  padding: 15px;
+}
+.summary-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 25px;
+}
+
+.light-black-bg {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.hr-new-line {
+  width: 100%;
+  background-color: #5a7184;
+  height: 3px;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .confirm-header {
+    padding: 10px;
+  }
+}
