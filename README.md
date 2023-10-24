@@ -1,4 +1,4 @@
-Write the objective of the assignment yourself
+Use any username and password to login
 
 ### Refer to the image below:
 
