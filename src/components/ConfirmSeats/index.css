@@ -33,6 +33,25 @@
   justify-content: space-between;
   align-items: center;
 }
+.success-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 75%;
+}
+.success-para {
+  color: white;
+}
+
+.top-success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 768px) {
   .confirm-header {
